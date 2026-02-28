@@ -1,6 +1,6 @@
 services:
     nginx:
-        container_name: fs-form-container
+        container_name: fs-form
         image: fs-form-image
         build:
             context: .
@@ -12,3 +12,4 @@ services:
 networks:
     feedback-system-network:
         external: true
+        name: feedback-system-network
