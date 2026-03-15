@@ -115,3 +115,15 @@
 .feedback-interaction-area.is-text-active .submit-btn {
     transform: translateY(10rem);
 }
+
+@media (max-width: 768px) {
+    .feedback-interaction-area.is-text-active .submit-btn {
+        transform: translateY(5rem);
+    }
+
+    .star {
+        width: 5rem;
+        height: 5rem;
+        margin: 0 0.2rem;
+    }
+}

@@ -33,3 +33,16 @@
     justify-content: space-between;
     gap: 0.5rem;
 }
+
+@media (max-width: 768px) {
+    .main-header {
+        padding: 1.5rem;
+        font-size: 1.8rem;
+        margin: 4px;
+    }
+
+    .lang-btn {
+        padding: 0.8rem 1.2rem;
+        font-size: 1.4rem;
+    }
+}
